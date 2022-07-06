@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "My awesome keymap",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "crkbd/r2g",
   "keymap": "crkbd_r2g_layout_split_3x6_3_mine",
@@ -61,7 +61,7 @@
       "KC_UP",
       "KC_END",
       "KC_PGUP",
-      "KC_NO",
+      "KC_INS",
       "KC_DEL",
       "KC_TAB",
       "KC_UNDS",
@@ -161,9 +161,9 @@
       "KC_RGUI",
       "KC_APP",
       "KC_NO",
-      "EE_CLR",
+      "KC_CAPS",
       "KC_NO",
-      "KC_NO",
+      "KC_LSFT",
       "KC_NO",
       "KC_F9",
       "KC_F10",
@@ -172,9 +172,9 @@
       "KC_G",
       "KC_H",
       "KC_B",
-      "KC_CAPS",
-      "QK_BOOT",
       "KC_NO",
+      "KC_NO",
+      "KC_RSFT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -205,7 +205,7 @@
       "KC_BRID",
       "KC_BRIU",
       "KC_NO",
-      "KC_NO",
+      "QK_BOOT",
       "KC_NO",
       "BL_BRTG",
       "BL_ON",
@@ -217,7 +217,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
+      "EE_CLR",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -227,5 +227,5 @@
       "KC_NO"
     ]
   ],
-  "author": ""
+  "author": "Anonymous"
 }
