@@ -55,7 +55,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #   define RGB_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
 // #   define RGB_DISABLE_AFTER_TIMEOUT 0 // number of ticks to wait until disabling effects
 //#   define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
-#   define RGB_DISABLE_TIMEOUT 60000 // milliseconds
+#   define RGB_DISABLE_TIMEOUT 90000 // milliseconds
 #   define RGB_DISABLE_WHEN_USB_SUSPENDED 1
 #   define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #   define RGB_MATRIX_LED_PROCESS_LIMIT (DRIVER_LED_TOTAL + 4) / 5 // limits the number of LEDs to process in an animation per task run (increases keyboard responsiveness)
